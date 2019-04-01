@@ -15,32 +15,20 @@
   </extension>
 </addon>
 
-<addon id="repository.bang" name="Bang" version="2.1" provider-name="">
-<extension point="xbmc.addon.repository" name="Bang>
-	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
-	</dir>
-	<dir>
-	    <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-    </dir>
-	<dir>
+<addon id="repository.bang" name="Bang" version="2.5" provider-name="Bang">
+	<extension point="xbmc.addon.repository" name="Bang">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
 		<info compressed="false">https://raw.githubusercontent.com/hidemyassbaby/repository.bang/master/zips/addons.xml</info>
-	    <checksum>https://raw.githubusercontent.com/hidemyassbaby/repository.bang/master/zips/addons.xml.md5</checksum>
-	    <datadir zip="true">https://raw.githubusercontent.com/hidemyassbaby/repository.bang/master/zips/</datadir>
-	</dir>
-	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-	</dir>
+		<checksum>https://raw.githubusercontent.com/hidemyassbaby/repository.bang/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/hidemyassbaby/repository.bang/master/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Kodi Wizard Builds</summary>
-		<description lang="en">Kodi Wizard Builds</description>
+		<summary lang="en">Bang</summary>
+		<description lang="en">Bang Bang Ban</description>
 		<genre></genre>
 	</extension>
 </addon>
