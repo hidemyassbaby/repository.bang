@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.bang" name="Bang" version="2.0" provider-name="">
+<addon id="repository.bang" name="Bang" version="2.1" provider-name="">
 <extension point="xbmc.addon.repository" name="Bang>
 	<dir>
 		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
@@ -12,9 +12,9 @@
         <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
     </dir>
 	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/hidemyassbaby/repository.kodiwizard/master/zips/addons.xml</info>
-	    <checksum>https://raw.githubusercontent.com/hidemyassbaby/repository.kodiwizard/master/zips/addons.xml.md5</checksum>
-	    <datadir zip="true">https://raw.githubusercontent.com/hidemyassbaby/repository.kodiwizard/master/zips/</datadir>	
+		<info compressed="false">https://raw.githubusercontent.com/hidemyassbaby/repository.bang/master/zips/addons.xml</info>
+	    <checksum>https://raw.githubusercontent.com/hidemyassbaby/repository.bang/master/zips/addons.xml.md5</checksum>
+	    <datadir zip="true">https://raw.githubusercontent.com/hidemyassbaby/repository.bang/master/zips/</datadir>	
 	</dir>
 	<dir>
 		<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
