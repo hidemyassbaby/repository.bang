@@ -37,11 +37,9 @@ v2.3.14 (2019-02-10)
   </extension>
 </addon>
 
-<addon id="plugin.program.bangwizard" name="Bang Wizard" version="2.2" provider-name="">
+<addon id="plugin.program.bangwizard" name="Bang Wizard" version="2.3" provider-name="">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="inputstream.adaptive" version="2.3.16"/>
-
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
 
