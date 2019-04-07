@@ -143,7 +143,7 @@ REPOID         = 'repository.bang'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
 REPOADDONXML   = 'https://github.com/hidemyassbaby/repository.bang/raw/master/zips/addons.xml'
 # Url to folder zip is located in
-REPOZIPURL     =  'https://github.com/hidemyassbaby/repository.bang/tree/master/zips/repository.bang'
+REPOZIPURL     =  'https://github.com/hidemyassbaby/repository.bang/raw/master/zips/repository.bang/'
 #########################################################
 
 #########################################################
