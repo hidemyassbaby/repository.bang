@@ -53,6 +53,46 @@ v2.3.14 (2019-02-10)
   </extension>
 </addon>
 
+<addon
+  id="pvr.Darkmediaandroid"
+  version="1.0"
+  name="DarkMedia PVR - Android"
+  provider-name="DarkMedia">
+  <requires>
+<import addon="kodi.binary.global.main" version="1.0.13"/>
+<import addon="kodi.binary.instance.pvr" version="5.10.3"/></requires>
+  <extension
+    point="xbmc.pvrclient"
+    library_android="libpvr.iptvsimple.so"/>
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en_AU">DarkMedia PVR Android</summary>
+    <summary lang="en_GB">DarkMedia PVR Android</summary>
+    <summary lang="en_NZ">DarkMedia PVR Android</summary>
+    <summary lang="en_US">Darkmedia PVR Android</summary>
+    <platform>android-aarch64</platform>
+  </extension>
+</addon>
+
+<addon
+  id="pvr.freeviewnzpc"
+  version="1.0"
+  name="Freeview NZ PVR"
+  provider-name="">
+  <requires>
+<import addon="kodi.binary.global.main" version="1.0.13"/>
+<import addon="kodi.binary.instance.pvr" version="5.10.3"/></requires>
+  <extension
+    point="xbmc.pvrclient"
+    library_windows="pvr.iptvsimple.dll"/>
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en_AU">Freeview NZ PVR</summary>
+    <summary lang="en_GB">Freeview NZ PVR</summary>
+    <platform>windows-x86_64</platform>
+  </extension>
+</addon>
+
 <addon id="repository.bang" name="Bang" version="3.0" provider-name="Bang">
 	<extension point="xbmc.addon.repository" name="Bang">
 		<dir>
@@ -86,6 +126,32 @@ v2.3.14 (2019-02-10)
     <language></language>
     <website>https://www.matthuisman.nz/2017/03/install-matthuisman-kodi-repo.html</website>
     <news></news>
+  </extension>
+</addon>
+
+<addon	id="script.disclaimer"
+		name="Disclaimer"
+		version="1.0"
+		provider-name="[COLOR dodgerblue][I]Barroni[/I][/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR dodgerblue]Disclaimer[/COLOR]</summary>
+    <description lang="en">Provides a disclaimer for builds.</description>
+	<disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<screenshot>resources/screenshot1.png</screenshot>
+		<screenshot>resources/screenshot2.png</screenshot>
+		<screenshot>resources/screenshot3.png</screenshot>
+	</assets>
   </extension>
 </addon>
 </addons>
