@@ -30,7 +30,7 @@ dialog 		= xbmcgui.Dialog()
 accepted	= addon.getSetting('accepted')
 
 def disclaimer():
-	time.sleep(22) # time it takes for popup to show *default = 5 seconds)
+	time.sleep(7) # time it takes for popup to show *default = 5 seconds)
 	if dialog.yesno("[COLOR fffdd211]TERMS AND CONDITIONS[/COLOR]","","[COLOR ghostwhite]By accessing this Build, you are agreeing to be bound by these Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this Setup[/COLOR]","[COLOR ghostwhite]We are not affiliated with the official KODI/XBMC Foundation in any way. All the names and artworks and softwares are copyrighted by kodi.tv We are not responsible for any harm or damage caused by using Kodi / Build on your devices. By Accpting these Terms and conditions you Accept the Law and everything related to streaming We Don't Control any 3rd party Content[/COLOR]","[COLOR darkred]DECLINE[/COLOR]","[COLOR green]ACCEPT[/COLOR]"): # dialog to accept disclaimer
 		# dialog.ok("[COLOR fffdd211]<<-ENTER YOUR HEADER MESSAGE HERE->>[/COLOR]", "[COLOR ghostwhite][CR]<<-ENTER YOUR MESSAGE HERE->>[/COLOR]") # dialog to add optional message to end user # delete this line if not needed
 		addon.setSetting("accepted", "true") # sets the addon disclaimer setting to true
