@@ -192,7 +192,7 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
 	</extension>
 </addon>
 
-<addon id="plugin.video.kodiyoutubers" name="[COLOR white]Kodi Youtubers[/COLOR]"	version="2.0"	provider-name="">
+<addon id="plugin.video.kodiyoutubers" name="[COLOR white]Kodi Youtubers[/COLOR]"	version="2.1"	provider-name="">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -318,7 +318,7 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
 	</extension>
 </addon>
 
-<addon id="plugin.video.onenewsnz" name="One News" version="1.2" provider-name="">
+<addon id="plugin.video.onenewsnz" name="1 News" version="1.5" provider-name="">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.routing" version="0.2.0"/>
@@ -455,58 +455,6 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
   </extension>
 </addon>
 
-<addon id="plugin.video.venom" version="3.6.1" name="[COLOR red]Venom[/COLOR]" provider-name="Venom">
-
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.requests" version="2.19.1" />
-		<import addon="script.module.beautifulsoup4" version="4.5.3"/>
-		<import addon="script.module.metahandler" version="2.9.0" />
-		<import addon="plugin.video.youtube" version="6.2.0"/>
-		<import addon="script.module.resolveurl" version="5.0.27"/>
-		<import addon="script.module.openscrapers" />
-		<import addon="script.module.addon.signals" version="0.0.3"/>
-		<import addon="context.venom" version="1.0.0"/>
-	</requires>
-
-	<extension point="xbmc.python.pluginsource" library="venom.py">
-		<provides>video</provides>
-	</extension>
-
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.python.module" library="resources/lib/"/>
-
-	<extension point="xbmc.addon.metadata">
-		<reuselanguageinvoker>false</reuselanguageinvoker> <!-- You can enable this if you want, expect some instability but much faster menu speeds -->
-		<summary lang="en">[B][COLOR red]Venom[/COLOR][/B] - We do not host any of the contents streamed</summary>
-		<description lang="en">[B][COLOR red]Venom[/COLOR][/B][CR] This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR]The author does not host any of the content in this addon and takes no responsibility for content found</description>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<forum></forum>
-		<website>https://github.com/123Venom/plugin.video.venom</website>
-		<source>https://github.com/123Venom/plugin.video.venom</source>
-		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshots/screenshot001.jpg</screenshot>
-			<screenshot>resources/screenshots/screenshot002.jpg</screenshot>
-			<screenshot>resources/screenshots/screenshot003.jpg</screenshot>
-		</assets>
-		<news>
-[B][COLOR red]Update - v3.6.1 - April 14, 2020[/COLOR][/B]
-[COLOR yellow]--[/COLOR][I] Fixed Calendar show titles.[/I]
-[COLOR yellow]--[/COLOR][I] fixed typo with RD uncached torrent removal
-    using PM setting.[/I]
-[COLOR yellow]--[/COLOR][I] fixed issue with RD uncached torrent check
-    failing due to RD response converting hashes to
-    lower case.[/I]
-[COLOR yellow]--[/COLOR][I] fixed Trakt Progress episode sort issue from
-    Trakt response.[/I]
-		</news>
-	</extension>
-</addon>
-
 <addon
   id="pvr.freeviewnzandroid"
   version="1.5"
@@ -562,64 +510,6 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
 		<summary lang="en">Bang</summary>
 		<description lang="en">Bang Bang Bang</description>
 		<genre></genre>
-	</extension>
-</addon>
-
-<addon id="repository.venom" name="[COLOR red]Venom[/COLOR] Repository" version="1.7" provider-name="Venom">
-	<extension point="xbmc.addon.repository" name="Venom Repo">
-
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/123Venom/zips/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/123Venom/zips/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/123Venom/zips/master/</datadir>
-		</dir>
-
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
-		</dir>
-
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/packages</datadir>
-		</dir>
-
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openmeta/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openmeta/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openmeta/master/zips/</datadir>
-		</dir>
-
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
-		</dir>
-
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-		</dir>
-
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">[B][COLOR red]Venom[/COLOR][/B] - We do not host any of the contents streamed</summary>
-		<description lang="en">[B][COLOR red]Venom[/COLOR][/B] - This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-		<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-		<news>
-[B][COLOR red]Update - v1.7 - April 1, 2020[/COLOR][/B]
-[COLOR yellow]--[/COLOR][I] Added gujal-resolveURL to repo since he's taking over
-    for jsergio.[/I]
-		</news>
 	</extension>
 </addon>
 
