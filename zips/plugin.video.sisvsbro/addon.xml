@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.sisvsbro" name="SIS VS BRO" version="1.1" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="plugin.video.youtube"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="news.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">SIS VS BRO</summary>
+        <description lang="en_GB">Welcome to SIS vs BRO! This is where Karina and Ronald join forces to challenge each other in countless fun videos! Challenges, gaming, and more!!!</description>
+        <language>en pt</language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <news></news>
+        <disclaimer>The author of this add-on is in no way affiliated with SIS VS BRO</disclaimer>
+        <assets>
+        <icon>resources/images/icon.png</icon>
+        <fanart>resources/images/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
