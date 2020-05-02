@@ -103,7 +103,7 @@ v2.3.14 (2019-02-10)
     </extension>
 </addon>
 
-<addon id="plugin.video.britech" name="Britec" version="1.0" provider-name="">
+<addon id="plugin.video.britech" name="Britec" version="1.1" provider-name="">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.routing" version="0.2.0"/>
@@ -130,7 +130,7 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
     </extension>
 </addon>
 
-<addon id="plugin.video.FailArmy" name="FailArmy" version="2.2" provider-name="">
+<addon id="plugin.video.FailArmy" name="FailArmy" version="3.0" provider-name="">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.routing" version="0.2.0"/>
@@ -225,7 +225,7 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
   </extension>
 </addon>
 
-<addon id="plugin.video.matt3756" name="Matt3756" version="2.5" provider-name="">
+<addon id="plugin.video.matt3756" name="Arcade Matt" version="3.0" provider-name="">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.routing" version="0.2.0"/>
@@ -236,14 +236,14 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Matt3756 Youtube</summary>
-        <description lang="en_GB">Hey it's Matt3756, welcome to my claw machine and arcade channel! Here we play arcade games, claw machines, coin pushers, carnival games + more! I also show you how these arcade games work and how to win at some of them! Whether it's tickets, money or claw machine plush, I'm always in it to win the jackpot! No need for hacks or cheats as I just use my skill to come out a winner at these arcade games! It all started with the claw machine and expanded from there - hope to enjoy what is to come from my arcade channel!
+        <summary lang="en_GB">Arcade Matt Youtube</summary>
+        <description lang="en_GB">Hey, I'm Arcade Matt and welcome to my arcade channel! I like to go out to arcades and play the claw machine, some people also call them a skill crane or crane game. I even show tips and tricks on how to win at them! I don't use any cheat or hack, just skill to come out a winner! I enjoy the coin pusher for quarters and bonus coin wins! I'm also a fan of arcade ticket games, found at places like Dave and Busters, Round One, and Tilt arcades. I love to win the arcade jackpot for tons of tickets! I then use my tickets to get awesome prizes like a GoPro, Nintendo Consoles, and more! Jackpot ticket games I enjoy playing are Slam a Winner, Dizzy Chicken, Tower of Tickets, Monster Drop, Pop the Lock, among others! Many of these games are 100% skill! I also enjoy prize games like Stacker, Sega Keymaster, Winner's Cube,  where you can win high end prizes like an Ipad, Xbox, PS4, or even money like a $100 bill! I've also branched out to carnival games and mini golf! SUB TODAY!
 		</description>
         <language>en pt</language>
         <platform>all</platform>
         <license>GPL-3.0</license>
         <news></news>
-        <disclaimer>The author of this add-on is in no way affiliated with Matt3756 Youtuber</disclaimer>
+        <disclaimer>The author of this add-on is in no way affiliated with Arcade Matt Youtuber</disclaimer>
         <assets>
         <icon>resources/images/icon.png</icon>
         <fanart>resources/images/fanart.jpg</fanart>
@@ -368,7 +368,6 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
 <addon id="plugin.video.pft" name="Press For Truth" version="6.0" provider-name="">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.nanscrapers" version="0.5.5" />
         <import addon="script.module.python.koding.aio" version="0.0.1"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
@@ -386,7 +385,7 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
 	</extension>
 </addon>
 
-<addon id="plugin.video.pgatour" name="PGA Tour" version="1.2" provider-name="">
+<addon id="plugin.video.pgatour" name="PGA Tour" version="2.0" provider-name="">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.routing" version="0.2.0"/>
@@ -437,7 +436,7 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
     </extension>
 </addon>
 
-<addon id="plugin.video.tedtalks" name="TED" version="1.5" provider-name="">
+<addon id="plugin.video.tedtalks" name="TED" version="2.0" provider-name="">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.routing" version="0.2.0"/>
@@ -748,36 +747,6 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
     <website></website>
     <email></email>
     <source></source>
-  </extension>
-</addon>
-
-<addon id="script.navi-x"
-       name="Navi-X"
-       version="4.0"
-       provider-name="Team Navi-X and TVADDONS.ag">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.urlresolver"  />
-    <import addon="script.module.t0mm0.common"  />
-    <import addon="script.module.addon.common" optional="false" />
-    <import addon="repository.xbmchub" optional="true" />
-    <import addon="plugin.video.youtube" optional="false" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py" >
-    <provides>executable video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup">
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <minversion>28764</minversion>
-    <summary>Media Browser Addon for Kodi</summary>
-    <description>Navi-X is the oldest and most trusted add-on for Kodi, used by millions of people worldwide. You'll find everything from live television to your favourite movies and television shows, easily accessible.</description>
-    <disclaimer>http://www.navixtreme.com/terms/</disclaimer>
-    <forum>http://forums.tvaddons.ag/forums/38-NAVI-X-MEDIA-BROWSER-FOR-KODI</forum>
-    <website>http://www.navixtreme.com/</website>
-    <source></source>
-    <email></email>
   </extension>
 </addon>
 </addons>
