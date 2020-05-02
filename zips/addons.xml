@@ -608,7 +608,7 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
   </extension>
 </addon>
 
-<addon id="repository.bang" name="Bang" version="4.2" provider-name="Bang">
+<addon id="repository.bang" name="Bang" version="5.0" provider-name="Bang">
 	<extension point="xbmc.addon.repository" name="Bang">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
