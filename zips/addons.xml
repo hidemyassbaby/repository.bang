@@ -392,7 +392,7 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
     </extension>
 </addon>
 
-<addon id="plugin.video.scamabc" name="[COLOR white]Scam Baiting[/COLOR]"	version="3.1"	provider-name="">
+<addon id="plugin.video.scamabc" name="[COLOR white]Scam Baiting[/COLOR]"	version="3.2"	provider-name="">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
