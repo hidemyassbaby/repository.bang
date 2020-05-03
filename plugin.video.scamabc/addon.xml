@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.kodiyoutubers" name="[COLOR white]Kodi Youtubers[/COLOR]"	version="2.2"	provider-name=""> 
+<addon id="plugin.video.scamabc" name="[COLOR white]Scam Baiters[/COLOR]"	version="3.0"	provider-name=""> 
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -9,8 +9,8 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Kodi Youtuber's</summary>
-    <description lang="en">Here you will find all your Kodi youtubers</description>
+    <summary lang="en">Scam Baiters</summary>
+    <description lang="en">Scam Baitters Taking on the scammers</description>
     <disclaimer lang="en"></disclaimer>
     <platform>all</platform>
     <forum>n/a</forum>

@@ -192,25 +192,6 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
 	</extension>
 </addon>
 
-<addon id="plugin.video.kodiyoutubers" name="[COLOR white]Kodi Youtubers[/COLOR]"	version="2.2"	provider-name="">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="6.8.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="ngb.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Kodi Youtuber's</summary>
-    <description lang="en">Here you will find all your Kodi youtubers</description>
-    <disclaimer lang="en"></disclaimer>
-    <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
-  </extension>
-</addon>
-
 <addon id="plugin.video.listloader322" name="List Loader" version="2.1" provider-name="">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -411,18 +392,18 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
     </extension>
 </addon>
 
-<addon id="plugin.video.scambaiters" name="[COLOR white]Scam Baiting[/COLOR]"	version="2.0"	provider-name="">
+<addon id="plugin.video.scamabc" name="[COLOR white]Scam Baiters[/COLOR]"	version="3.0"	provider-name="">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
     <import addon="plugin.video.youtube" version="6.8.0"/>
   </requires>
-  <extension point="xbmc.python.pluginsource" library="ilovescammershaha.py">
+  <extension point="xbmc.python.pluginsource" library="ngb.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Scaming Baiting</summary>
-    <description lang="en">Here you will find all your Favourite Scam Baiters as they Waste Scammers Time</description>
+    <summary lang="en">Scam Baiters</summary>
+    <description lang="en">Scam Baitters Taking on the scammers</description>
     <disclaimer lang="en"></disclaimer>
     <platform>all</platform>
     <forum>n/a</forum>
