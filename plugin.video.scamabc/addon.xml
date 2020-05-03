@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.scamabc" name="[COLOR white]Scam Baiting[/COLOR]"	version="3.2"	provider-name=""> 
+<addon id="plugin.video.scamabc" name="[COLOR white]Scam Baiting[/COLOR]"	version="3.5"	provider-name=""> 
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -10,7 +10,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Scam Baiters</summary>
-    <description lang="en">Scam Baitters Taking on the scammers</description>
+    <description lang="en">Scam Baiters Taking on the Scammers</description>
     <disclaimer lang="en"></disclaimer>
     <platform>all</platform>
     <forum>n/a</forum>

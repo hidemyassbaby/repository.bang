@@ -392,7 +392,7 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
     </extension>
 </addon>
 
-<addon id="plugin.video.scamabc" name="[COLOR white]Scam Baiting[/COLOR]"	version="3.2"	provider-name="">
+<addon id="plugin.video.scamabc" name="[COLOR white]Scam Baiting[/COLOR]"	version="3.5"	provider-name="">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -403,7 +403,7 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Scam Baiters</summary>
-    <description lang="en">Scam Baitters Taking on the scammers</description>
+    <description lang="en">Scam Baiters Taking on the Scammers</description>
     <disclaimer lang="en"></disclaimer>
     <platform>all</platform>
     <forum>n/a</forum>
@@ -608,7 +608,7 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
   </extension>
 </addon>
 
-<addon id="repository.bang" name="Bang" version="5.1" provider-name="Bang">
+<addon id="repository.bang" name="Bang" version="5.2" provider-name="Bang">
 	<extension point="xbmc.addon.repository" name="Bang">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
