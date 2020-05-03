@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.nelkfilmz" name="NELK" version="3.2" provider-name="">
+<addon id="plugin.video.nelkfilmz" name="NELK" version="3.3" provider-name="">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.nanscrapers" version="0.5.5" />
         <import addon="script.module.python.koding.aio" version="0.0.1"/>
+        <import addon="plugin.video.youtube" version="6.8.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
