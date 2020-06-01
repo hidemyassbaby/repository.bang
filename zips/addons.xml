@@ -37,7 +37,7 @@ v2.3.14 (2019-02-10)
   </extension>
 </addon>
 
-<addon id="plugin.program.bangmessage" version="1.0" name="Bang Alerts" provider-name="">
+<addon id="plugin.program.bangmessage" version="1.1" name="Bang Alerts" provider-name="">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.addon.common" optional="true" />
