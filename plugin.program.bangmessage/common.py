@@ -1,6 +1,6 @@
 import os,sys,xbmc,xbmcplugin,xbmcaddon,xbmcgui,urllib,urllib2,re,time,datetime,string,StringIO,logging,random,array,htmllib,xbmcvfs
 #import common
-addon_id='plugin.program.BRETTUSmessages'
+addon_id='plugin.program.bangmessage'
 try: 				from addon.common.addon import Addon
 except:
     try: 		from t0mm0.common.addon import Addon
@@ -125,7 +125,7 @@ ACTION_BACKSPACE				=	110	## ?
 ## ################################################## ##
 OverlayBorder=artp('blank1'); 
 OverlayBackground=artp('ContentPanel'); 
-hubLogo=artp('BRETTUS.png'); 
+hubLogo=artp('icon.png'); 
 #hubLogo=artp('logo_notice.png'); 
 DefaultNoteImage=artp('blank1'); 
 DefaultSplitter="|||"; 
