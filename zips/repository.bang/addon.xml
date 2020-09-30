@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.bang" name="Bang" version="7.2" provider-name="Bang">
-	<requires>
-        <import addon="repository.bangmore" version="1.0"/>
-    </requires>
+<addon id="repository.bang" name="Bang" version="7.5" provider-name="Bang">
 	<extension point="xbmc.addon.repository" name="Bang">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/hidemyassbaby/repository.bang/master/zips/addons.xml</info>
