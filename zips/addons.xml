@@ -543,6 +543,27 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
   </extension>
 </addon>
 
+<addon id="plugin.video.weatherwatchnz" version="1.0" name="Weather Watch NZ" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="plugin.video.youtube" version="5.3.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">The official YouTube channel of Weather Watch NZ</summary>
+        <description lang="en_GB">The latest Weather Video forecasts for New Zealand covering cyclones, snow, floods, drought and everything else Mother Nature throws at us. Head weather forecaster Philip Duncan brings you the latest weather forecast weekdays, and special breaking news weather videos for New Zealand during the big events. With our connects through Bauer Global Media, CNN Weather, CountryTV and Wunderground we have the data and information to have you covered weatherwise.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+        <news></news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.youtube" name="YouTube" version="6.8.0" provider-name="anxdpanic, bromix">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
