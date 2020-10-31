@@ -503,6 +503,31 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
     </extension>
 </addon>
 
+<addon id="plugin.video.tdavies" name="Stuart Davies" version="1.0" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="plugin.video.youtube"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="news.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Stuart Davies</summary>
+        <description lang="en_GB">Tutorials on how to paint tonalist landscapes.</description>
+        <language>en pt</language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <news></news>
+        <disclaimer>The author of this add-on is in no way affiliated with Stuart Davies</disclaimer>
+        <assets>
+        <icon>resources/images/icon.png</icon>
+        <fanart>resources/images/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.tedtalks" name="TED" version="2.0" provider-name="">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
