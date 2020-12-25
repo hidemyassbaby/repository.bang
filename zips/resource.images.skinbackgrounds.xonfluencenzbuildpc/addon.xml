@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<<<<<<< Updated upstream
-<addon id="resource.images.skinbackgrounds.xonfluencenzbuildpc" name="Skin Backgrounds NZ Build PC" version="3.6" provider-name="">
-=======
-<addon id="resource.images.skinbackgrounds.xonfluencenzbuildpc" name="Skin Backgrounds NZ Build PC" version="3.3" provider-name="">
->>>>>>> Stashed changes
+<addon id="resource.images.skinbackgrounds.xonfluencenzbuildpc" name="Skin Backgrounds NZ Build PC" version="3.8" provider-name="">
+
 	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
 	<requires>
 		<import addon="kodi.resource" version="1.0.0"/>

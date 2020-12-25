@@ -846,7 +846,7 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
   </extension>
 </addon>
 
-<addon id="resource.images.skinbackgrounds.xonfluencenzbuildandroid" name="Skin Backgrounds NZ Build Android" version="3.1" provider-name="">
+<addon id="resource.images.skinbackgrounds.xonfluencenzbuildandroid" name="Skin Backgrounds NZ Build Android" version="3.5" provider-name="">
 	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
 	<requires>
 		<import addon="kodi.resource" version="1.0.0"/>
@@ -858,11 +858,8 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
 	</extension>
 </addon>
 
-<<<<<<< Updated upstream
-<addon id="resource.images.skinbackgrounds.xonfluencenzbuildpc" name="Skin Backgrounds NZ Build PC" version="3.6" provider-name="">
-=======
-<addon id="resource.images.skinbackgrounds.xonfluencenzbuildpc" name="Skin Backgrounds NZ Build PC" version="3.3" provider-name="">
->>>>>>> Stashed changes
+<addon id="resource.images.skinbackgrounds.xonfluencenzbuildpc" name="Skin Backgrounds NZ Build PC" version="3.8" provider-name="">
+
 	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
 	<requires>
 		<import addon="kodi.resource" version="1.0.0"/>
