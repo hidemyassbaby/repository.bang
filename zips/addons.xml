@@ -686,7 +686,7 @@ Britec Tech Tips - Malware Removal - PC Computer Repair" How To" videos and Trou
     </extension>
 </addon>
 
-<addon id="program.library" version="1.5" name="library" provider-name="">
+<addon id="program.library" version="2.0" name="library" provider-name="">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
     </requires>

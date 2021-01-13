@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="program.library" version="1.5" name="library" provider-name="">
+<addon id="program.library" version="2.0" name="library" provider-name="">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
     </requires>
