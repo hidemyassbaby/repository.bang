@@ -13,6 +13,7 @@
 		<setting id="show16" type="bool" label="Show Jarvis(v16.0) Builds" default="true"/>
 		<setting id="show17" type="bool" label="Show Krypton(v17.0) Builds" default="true"/>
 		<setting id="show18" type="bool" label="Show Leia(v18.0) Builds" default="true"/>
+		<setting id="show19" type="bool" label="Show matrix(v19.0) Builds" default="true"/>
 		<setting id="seperate" type="bool" label="Do not seperate based off version" default="false"/>
 		<setting id="installed" type="bool" label="Build Installed" visible="false" default="false" />
 		<setting id="extract" type="text" label="Extract Build %" visible="false" default="100" />
